@@ -1,2 +1,425 @@
 @charset "utf-8";
 
+body {
+    font-family: "メイリオ";
+    color: #333333;
+}
+
+#main p{
+    font-size: 13px;
+}
+
+/* Top */
+.top h1{
+    display: inline-block;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 38px;
+}
+
+.title:before{
+    content: "";
+    display:  inline-block; 
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+    border: 3px solid #50B792;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.top p{
+    line-height: 22px;
+}
+
+.register-member{
+    width: 633px;
+    height: 70px;
+    margin-top: 16px;
+    border: 1px solid #F2C5D0;
+    border-radius: 5px;
+    background-color: #FBEFF2;
+}
+
+.appeal-wording{
+    float: left;
+    width: 221px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 114px;
+    margin-bottom: 13px;
+    margin-right: 9px;
+    font-weight: bold;
+    color: #CB6073;
+    line-height: 20px;
+}
+
+
+.register-button a{
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 19px;
+    margin-bottom: 17px;
+    margin-right: 88px;
+    padding: 5px 24px 4px;
+    border: 1px solid #F3D3DB;
+    border-radius: 2px;
+    background: linear-gradient(#EBB5C0, #D5738B);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+/* コンテンツ */
+.contents-box{
+    width: 633px;
+    height: 2488px;
+    background-image: url("../img/background_service.jpg");
+    margin-top: 23px;
+    margin-bottom: 21px;
+    border: 1px solid #D9D2C3;
+    border-radius: 5px;
+}
+
+/* ランキング */
+.ranking-box{
+    width: 598px;
+    height: 360px;
+    margin-top: 19px;
+    margin-left: 17px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+    box-sizing: border-box;
+}
+
+.ranking-title{
+    width: 561px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_rnk.png);
+    background-repeat: no-repeat;
+}
+
+.ranking-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.ranking-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.ranking-box li{
+    width:45%;
+    padding-bottom: 7px;
+}
+
+.ranking-box p{
+    margin-top: 3px;
+}
+
+.ranking-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.ranking-box li:nth-child(even){
+    float: left;
+}
+
+.ranking-box li:nth-child(odd){
+    float: left;
+    clear: left;
+    padding-right: 30px;
+}
+
+.ranking-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.ranking-box p{
+    line-height: 20px;
+}
+
+
+/* コイン・ポイント＆クーポン */
+.coin-point-box{
+    width: 598px;
+    height: 391px;
+    margin-top: 19px;
+    margin-left: 17px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+    box-sizing: border-box;
+}
+
+.coin-point-title{
+    width: 561px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_cpon.png);
+    background-repeat: no-repeat;
+}
+
+.coin-point-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.coin-point-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.coin-point-box li{
+    width:45%;
+    padding-bottom: 7px;
+}
+
+.coin-point-box p{
+    margin-top: 3px;
+}
+
+.coin-point-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.coin-point-box li:nth-child(even){
+    float: left;
+}
+
+.coin-point-box li:nth-child(odd){
+    float: left;
+    clear: left;
+    padding-right: 30px;
+}
+
+.coin-point-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.coin-point-box p{
+    line-height: 20px;
+}
+
+/*ブログ */
+.blog-box{
+    width: 598px;
+    height: 318px;
+    margin-top: 19px;
+    margin-left: 17px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+    box-sizing: border-box;
+}
+
+.blog-title{
+    width: 561px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_bt.png);
+    background-repeat: no-repeat;
+}
+
+.blog-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.blog-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.blog-box li{
+    width:45%;
+    padding-bottom: 7px;
+}
+
+.blog-box p{
+    margin-top: 3px;
+}
+
+.blog-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.blog-box li:nth-child(even){
+    float: left;
+}
+
+.blog-box li:nth-child(odd){
+    float: left;
+    clear: left;
+    padding-right: 30px;
+}
+
+.blog-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.blog-box p{
+    line-height: 20px;
+}
+
+/* Q&A */
+.QA-box{
+    float: left;
+    width: 294px;
+    height: 240px;
+    margin-top: 19px;
+    margin-left: 17px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+    box-sizing: border-box;
+}
+
+.QA-title{
+    width: 294px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_qa.png);
+    background-repeat: no-repeat;
+}
+
+.QA-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.QA-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+
+.QA-box p{
+    margin-top: 3px;
+}
+
+.QA-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.QA-box p{
+    line-height: 20px;
+}
+
+/* ビューティ検索 */
+.search-box{
+    float: left;
+    width: 292px;
+    height: 240px;
+    margin-top: 19px;
+    margin-left: 12px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+    box-sizing: border-box;
+}
+
+.search-title{
+    width: 294px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_csmt.png);
+    background-repeat: no-repeat;
+}
+
+.search-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.search-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+
+.search-box p{
+    margin-top: 3px;
+}
+
+.search-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.search-box p{
+    line-height: 20px;
+}
+
+
