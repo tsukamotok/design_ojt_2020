@@ -35,7 +35,8 @@ body {
     line-height: 22px;
 }
 
-.register-member{
+.top-register{
+    overflow: hidden;
     width: 633px;
     height: 70px;
     margin-top: 16px;
@@ -44,7 +45,7 @@ body {
     background-color: #FBEFF2;
 }
 
-.appeal-wording{
+.top-register-wording{
     float: left;
     width: 221px;
     height: 40px;
@@ -57,9 +58,7 @@ body {
     line-height: 20px;
 }
 
-
-.register-button a{
-    float: left;
+.top-register-button a{
     display: inline-block;
     box-sizing: border-box;
     margin-top: 19px;
@@ -94,7 +93,6 @@ body {
     margin-left: 17px;
     background-color: #fff;
     border: 1px solid #D9D3C5;
-    box-sizing: border-box;
 }
 
 .ranking-title{
@@ -112,6 +110,7 @@ body {
     padding-top: 14px;
     padding-left: 57px;
     font-size: 15px;
+    font-weight: bold;
     letter-spacing: 0.03px;
     line-height: 20px;
 }
@@ -123,7 +122,7 @@ body {
 }
 
 .ranking-box li{
-    width:45%;
+    width: 260px;
     padding-bottom: 7px;
 }
 
@@ -168,11 +167,10 @@ body {
 .coin-point-box{
     width: 598px;
     height: 391px;
-    margin-top: 19px;
+    margin-top: 12px;
     margin-left: 17px;
     background-color: #fff;
     border: 1px solid #D9D3C5;
-    box-sizing: border-box;
 }
 
 .coin-point-title{
@@ -190,6 +188,7 @@ body {
     padding-top: 14px;
     padding-left: 57px;
     font-size: 15px;
+    font-weight: bold;
     letter-spacing: 0.03px;
     line-height: 20px;
 }
@@ -201,7 +200,7 @@ body {
 }
 
 .coin-point-box li{
-    width:45%;
+    width: 260px;
     padding-bottom: 7px;
 }
 
@@ -245,11 +244,10 @@ body {
 .blog-box{
     width: 598px;
     height: 318px;
-    margin-top: 19px;
+    margin-top: 12px;
     margin-left: 17px;
     background-color: #fff;
     border: 1px solid #D9D3C5;
-    box-sizing: border-box;
 }
 
 .blog-title{
@@ -267,6 +265,7 @@ body {
     padding-top: 14px;
     padding-left: 57px;
     font-size: 15px;
+    font-weight: bold;
     letter-spacing: 0.03px;
     line-height: 20px;
 }
@@ -278,7 +277,7 @@ body {
 }
 
 .blog-box li{
-    width:45%;
+    width: 260px;
     padding-bottom: 7px;
 }
 
@@ -323,11 +322,10 @@ body {
     float: left;
     width: 294px;
     height: 240px;
-    margin-top: 19px;
+    margin-top: 12px;
     margin-left: 17px;
     background-color: #fff;
     border: 1px solid #D9D3C5;
-    box-sizing: border-box;
 }
 
 .QA-title{
@@ -345,6 +343,7 @@ body {
     padding-top: 14px;
     padding-left: 57px;
     font-size: 15px;
+    font-weight: bold;
     letter-spacing: 0.03px;
     line-height: 20px;
 }
@@ -355,6 +354,10 @@ body {
     margin-right: 20px;
 }
 
+.QA-box li{
+    width: 247px;
+    padding-bottom: 7px;
+}
 
 .QA-box p{
     margin-top: 3px;
@@ -375,11 +378,10 @@ body {
     float: left;
     width: 292px;
     height: 240px;
-    margin-top: 19px;
+    margin-top: 12px;
     margin-left: 12px;
     background-color: #fff;
     border: 1px solid #D9D3C5;
-    box-sizing: border-box;
 }
 
 .search-title{
@@ -397,6 +399,7 @@ body {
     padding-top: 14px;
     padding-left: 57px;
     font-size: 15px;
+    font-weight: bold;
     letter-spacing: 0.03px;
     line-height: 20px;
 }
@@ -407,6 +410,10 @@ body {
     margin-right: 20px;
 }
 
+.search-box li{
+    width: 234px;
+    padding-bottom: 7px;
+}
 
 .search-box p{
     margin-top: 3px;
@@ -422,4 +429,420 @@ body {
     line-height: 20px;
 }
 
+/* ブランドコレクション */
+.brand-box{
+    clear: both;
+    width: 598px;
+    height: 261px;
+    margin-top: 12px;
+    margin-left: 17px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+}
 
+.brand-title{
+    width: 561px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_brd.png);
+    background-repeat: no-repeat;
+}
+
+.brand-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.brand-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.brand-box li{
+    width: 260px;
+    padding-bottom: 7px;
+}
+
+.brand-box p{
+    margin-top: 3px;
+}
+
+.brand-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.brand-box li:nth-child(even){
+    float: left;
+}
+
+.brand-box li:nth-child(odd){
+    float: left;
+    clear: left;
+    padding-right: 30px;
+}
+
+.brand-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.brand-box p{
+    line-height: 20px;
+}
+
+/* スペシャル */
+.special-box{
+    clear: both;
+    width: 598px;
+    height: 437px;
+    margin-top: 12px;
+    margin-left: 17px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+}
+
+.special-title{
+    width: 561px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_sp.png);
+    background-repeat: no-repeat;
+}
+
+.special-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.special-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 21px;
+}
+
+.special-box li{
+    width: 260px;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+.special-box p{
+    margin-top: 3px;
+}
+
+.special-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.special-box li:nth-child(even){
+    float: left;
+}
+
+.special-box li:nth-child(odd){
+    float: left;
+    clear: left;
+    padding-right: 30px;
+}
+
+.special-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.special-box p{
+    line-height: 20px;
+}
+
+/* 働く */
+.work-box{
+    clear: both;
+    width: 598px;
+    height: 180px;
+    margin-top: 12px;
+    margin-left: 17px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+}
+
+.work-title{
+    width: 561px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_work.png);
+    background-repeat: no-repeat;
+}
+
+.work-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.work-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.work-box li{
+    width: 260px;
+    padding-bottom: 7px;
+}
+
+.work-box p{
+    margin-top: 3px;
+}
+
+.work-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.work-box li:nth-child(even){
+    float: left;
+}
+
+.work-box li:nth-child(odd){
+    float: left;
+    clear: left;
+    padding-right: 30px;
+}
+
+.work-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.work-box p{
+    line-height: 20px;
+}
+
+/* お買い物 */
+.shopping-box{
+    clear: both;
+    width: 598px;
+    height: 180px;
+    margin-top: 11px;
+    margin-left: 17px;
+    background-color: #fff;
+    border: 1px solid #D9D3C5;
+}
+
+.shopping-title{
+    width: 561px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    margin-right: 24px;
+    background-image: url(../img/background_title_shop.png);
+    background-repeat: no-repeat;
+}
+
+.shopping-title h2{
+    padding-top: 14px;
+    padding-left: 57px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.03px;
+    line-height: 20px;
+}
+
+.shopping-box ul{
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.shopping-box li{
+    width: 260px;
+    padding-bottom: 7px;
+}
+
+.shopping-box p{
+    margin-top: 3px;
+}
+
+.shopping-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.shopping-box li:nth-child(even){
+    float: left;
+}
+
+.shopping-box li:nth-child(odd){
+    float: left;
+    clear: left;
+    padding-right: 30px;
+}
+
+.shopping-box a{
+    color: #068681;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.shopping-box p{
+    line-height: 20px;
+}
+
+/* MY@cosme */
+.myatcosme-frame {
+    width: 635px;
+    height: 492px;
+    border: 1px solid #ECE8E0;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.myatcosme{
+    width: 629px;
+    height: 491px;
+    margin: 3px;
+    border: 1px solid #D9D2C3;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.myatcosme-contents{
+    overflow: hidden;
+}
+
+.myatcosme-explanation{
+    float: left;
+}
+
+.myatcosme-explanation h2{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.myatcosme-image{
+    float: right;
+    margin-top: 16px;
+}
+
+.myatcosme-explanation p{
+    margin-top: 13px;
+    width: 338px;
+    margin-left: 19px;
+    line-height: 20px;
+}
+
+.myatcosme-explanation ul{
+    list-style: none;
+    width: 340px;
+    margin-top: 9px;
+    margin-left: 19px;
+}
+
+.myatcosme-explanation li{
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.myatcosme-explanation li:first-letter{
+    color: #4EB691;
+}
+
+.bottom-register{
+    clear: both;
+    width: 627px;
+    height: 83px;
+    margin-top: 19px;
+    background: linear-gradient(#fff, #E8E3D7);
+    border-radius: 2px;
+}
+
+.bottom-register-wording{
+    float: left;
+    width: 221px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 112px;
+    margin-bottom:28px;
+    margin-right: 8px;
+    font-weight: bold;
+    color: #CB6073;
+    line-height: 20px;
+}
+
+.bottom-register-button{
+    width: 200px;
+    height: 34px;
+    float: left;
+    margin-top: 19px;
+    margin-bottom: 32px;
+    margin-right: 86px;
+    border: 1px solid #F3D3DB;
+    border-radius: 2px;
+    background: linear-gradient(#EBB5C0, #D5738B);
+    box-sizing: border-box;
+}
+
+.bottom-register-button a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 24px 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+}
