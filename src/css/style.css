@@ -382,6 +382,18 @@ body {
     line-height: 20px;
 }
 
+.QA-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
 /* ビューティ検索 */
 .search-box{
     flex-direction: row;
@@ -426,16 +438,37 @@ body {
 
 .search-box p{
     margin-top: 3px;
+    line-height: 20px;
 }
 
-.search-box a{
+.search-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.search-subtitle{
     color: #068681;
     font-size: 13px;
     line-height: 20px;
 }
 
-.search-box p{
-    line-height: 20px;
+.search-box h3:before{
+    content: "";
+    display:  inline-block; 
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    border: 3px solid #50B792;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
 }
 
 /* ブランドコレクション */
