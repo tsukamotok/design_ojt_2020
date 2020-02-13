@@ -2,7 +2,7 @@
 
 body {
     font-family: "メイリオ";
-    color: #333333;
+    color: #333;
 }
 
 #main p{
@@ -20,13 +20,13 @@ body {
     line-height: 38px;
 }
 
-.title:before{
+.title::before{
     content: "";
     display:  inline-block; 
     width: 18px;
     height: 18px;
     margin-right: 9px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 50px;
     box-sizing: border-box;
 }
@@ -40,9 +40,9 @@ body {
     width: 633px;
     height: 70px;
     margin-top: 16px;
-    border: 1px solid #F2C5D0;
+    border: 1px solid #f2c5d0;
     border-radius: 5px;
-    background-color: #FBEFF2;
+    background-color: #fbeff2;
 }
 
 .top-register-wording{
@@ -55,7 +55,7 @@ body {
     margin-right: 9px;
     text-decoration: none;
     font-weight: bold;
-    color: #CB6073;
+    color: #cb6073;
     line-height: 20px;
 }
 
@@ -66,9 +66,9 @@ body {
     margin-bottom: 17px;
     margin-right: 88px;
     padding: 6px 24px 3px;
-    border: 1px solid #CCB0B7;
+    border: 1px solid #ccb0b7;
     border-radius: 2px;
-    background: linear-gradient(#EBB5C0, #D5738B);
+    background: linear-gradient(#ebb5c0, #d5738b);
     color: #fff;
     font-size: 15px;
     font-weight: bold;
@@ -82,7 +82,7 @@ body {
     background-image: url("../img/background_service.jpg");
     margin-top: 22px;
     margin-bottom: 21px;
-    border: 1px solid #D9D2C3;
+    border: 1px solid #d9d2c3;
     border-radius: 5px;
 }
 
@@ -93,7 +93,7 @@ body {
     margin-top: 19px;
     margin-left: 17px;
     background-color: #fff;
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
 .ranking-title{
@@ -112,7 +112,6 @@ body {
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
@@ -142,13 +141,13 @@ body {
     padding-bottom: 7px;
 }
 
-.ranking-box-unity h3:before{
+.ranking-box-unity h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -173,7 +172,7 @@ body {
     margin-left: 17px;
     background-color: #fff;
     background-image: url(../img/bg-coin-point.jpg);
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
 .coin-point-title{
@@ -192,7 +191,6 @@ body {
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
@@ -220,13 +218,13 @@ body {
     padding-bottom: 8px;
 }
 
-.coin-point-box-unity h3:before{
+.coin-point-box-unity h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -244,7 +242,7 @@ body {
 }
 
 .coin-point-link{
-    color: #333333;
+    color: #333;
 }
 
 
@@ -255,7 +253,7 @@ body {
     margin-top: 12px;
     margin-left: 17px;
     background-color: #fff;
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
 .blog-title{
@@ -274,7 +272,6 @@ body {
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
@@ -313,34 +310,34 @@ body {
     line-height: 20px;
 }
 
-.blog-box-unity h3:before{
+.blog-box-unity h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
 }
 
 /* Q&A */
-.QA-search-box{
+.qa-search-box{
     display: flex;
 }
 
-.QA-box{
+.qa-box{
     flex-direction: row;
     width: 292px;
     height: 240px;
     margin-top: 12px;
     margin-left: 17px;
     background-color: #fff;
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
-.QA-title{
+.qa-title{
     width: 294px;
     height: 49px;
     margin-top: 13px;
@@ -351,44 +348,43 @@ body {
     background-repeat: no-repeat;
 }
 
-.QA-title h2{
+.qa-title h2{
     padding-top: 16px;
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
-.QA-box ul{
+.qa-box ul{
     list-style: none;
     margin-left: 27px;
     margin-right: 20px;
 }
 
-.QA-box li{
+.qa-box li{
     width: 247px;
     padding-bottom: 15px;
 }
 
-.QA-box p{
+.qa-box p{
     margin-top: 3px;
     line-height: 20px;
 }
 
-.QA-subtitle{
+.qa-subtitle{
     color: #068681;
     font-size: 13px;
     line-height: 20px;
 }
 
-.QA-box h3:before{
+.qa-box h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -402,7 +398,7 @@ body {
     margin-top: 12px;
     margin-left: 12px;
     background-color: #fff;
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
 .search-title{
@@ -421,7 +417,6 @@ body {
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
@@ -441,13 +436,13 @@ body {
     line-height: 20px;
 }
 
-.search-box h3:before{
+.search-box h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -459,13 +454,13 @@ body {
     line-height: 20px;
 }
 
-.search-box h3:before{
+.search-box h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -478,7 +473,7 @@ body {
     margin-top: 12px;
     margin-left: 17px;
     background-color: #fff;
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
 .brand-title{
@@ -497,7 +492,6 @@ body {
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
@@ -530,13 +524,13 @@ body {
     line-height: 20px;
 }
 
-.brand-box-unity h3:before{
+.brand-box-unity h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -556,7 +550,7 @@ body {
     margin-top: 12px;
     margin-left: 17px;
     background-color: #fff;
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
 .special-title{
@@ -575,7 +569,6 @@ body {
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
@@ -615,13 +608,13 @@ body {
     line-height: 20px;
 }
 
-.special-box-unity h3:before{
+.special-box-unity h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -635,7 +628,7 @@ body {
     margin-top: 12px;
     margin-left: 17px;
     background-color: #fff;
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
 .work-title{
@@ -654,7 +647,6 @@ body {
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
@@ -692,13 +684,13 @@ body {
     line-height: 20px;
 }
 
-.work-box h3:before{
+.work-box h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -711,7 +703,7 @@ body {
     margin-top: 11px;
     margin-left: 17px;
     background-color: #fff;
-    border: 1px solid #D9D3C5;
+    border: 1px solid #d9d3c5;
 }
 
 .shopping-title{
@@ -730,7 +722,6 @@ body {
     padding-left: 57px;
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 0.03px;
     line-height: 20px;
 }
 
@@ -769,13 +760,13 @@ body {
     line-height: 20px;
 }
 
-.shopping-box h3:before{
+.shopping-box h3::before{
     content: "";
     display:  inline-block; 
     width: 13px;
     height: 13px;
     margin-right: 4px;
-    border: 3px solid #50B792;
+    border: 3px solid #50b792;
     border-radius: 100px;
     box-sizing: border-box;
     vertical-align: middle;
@@ -786,7 +777,7 @@ body {
 .myatcosme-frame {
     width: 633px;
     height: 494px;
-    border: 1px solid #ECE8E0;
+    border: 1px solid #ece8e0;
     border-radius: 2px;
 }
 
@@ -794,7 +785,7 @@ body {
     width: 627px;
     height: 488px;
     margin: 2px;
-    border: 1px solid #D9D2C3;
+    border: 1px solid #d9d2c3;
     border-radius: 2px;
 }
 
@@ -838,8 +829,8 @@ body {
     line-height: 20px;
 }
 
-.myatcosme-explanation li:first-letter{
-    color: #4EB691;
+.myatcosme-explanation li::first-letter{
+    color: #4eb691;
 }
 
 
@@ -848,7 +839,7 @@ body {
     width: 627px;
     height: 83px;
     margin-top: 19px;
-    background: linear-gradient(#fff, #E8E3D7);
+    background: linear-gradient(#fff, #e8e3d7);
     border-radius: 2px;
 }
 
@@ -861,7 +852,7 @@ body {
     margin-bottom:28px;
     margin-right: 8px;
     font-weight: bold;
-    color: #CB6073;
+    color: #cb6073;
     line-height: 20px;
 }
 
@@ -874,10 +865,10 @@ body {
     margin-right: 86px;
     padding: 6px 24px 3px;
     text-decoration: none;
-    border: 1px solid #CCB0B7;
+    border: 1px solid #ccb0b7;
     border-radius: 2px;
     box-sizing: border-box;
-    background: linear-gradient(#EBB5C0, #D5738B);
+    background: linear-gradient(#ebb5C0, #d5738b);
     color: #fff;
     font-size: 15px;
     font-weight: bold;
