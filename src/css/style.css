@@ -57,13 +57,14 @@ body {
 }
 
 .top-register-button{
+    box-shadow: 0px 0px 0px 1px #ccb0b7;
     box-sizing: border-box;
     text-decoration: none;
     margin-top: 19px;
     margin-bottom: 17px;
     margin-right: 88px;
     padding: 6px 24px 3px;
-    border: 1px solid #ccb0b7;
+    border: 1px solid #f3d3dB;
     border-radius: 2px;
     background: linear-gradient(#ebb5c0, #d5738b);
     color: #fff;
@@ -799,7 +800,6 @@ body {
 }
 
 .bottom-register-wording{
-    flex-direction: row;
     width: 221px;
     height: 40px;
     margin-top: 15px;
@@ -812,7 +812,7 @@ body {
 }
 
 .bottom-register-button{
-    flex-direction: row;
+    box-shadow: 0px 0px 0px 1px #ccb0b7;
     width: 200px;
     height: 34px;
     margin-top: 18px;
@@ -820,7 +820,7 @@ body {
     margin-right: 86px;
     padding: 6px 24px 3px;
     text-decoration: none;
-    border: 1px solid #ccb0b7;
+    border: 1px solid #f3d3dB;
     border-radius: 2px;
     box-sizing: border-box;
     background: linear-gradient(#ebb5C0, #d5738b);
