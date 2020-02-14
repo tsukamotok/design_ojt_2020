@@ -11,7 +11,6 @@ body {
 
 /* Top */
 .top h1{
-    display: inline-block;
     margin-top: 26px;
     margin-bottom: 10px;
     font-size: 25px;
@@ -46,22 +45,20 @@ body {
 }
 
 .top-register-wording{
-    flex-direction: row;
     width: 221px;
     height: 40px;
     margin-top: 15px;
     margin-left: 114px;
     margin-bottom: 13px;
     margin-right: 9px;
-    text-decoration: none;
     font-weight: bold;
     color: #cb6073;
     line-height: 20px;
 }
 
 .top-register-button{
-    flex-direction: row;
     box-sizing: border-box;
+    text-decoration: none;
     margin-top: 19px;
     margin-bottom: 17px;
     margin-right: 88px;
@@ -122,13 +119,8 @@ body {
 }
 
 .ranking-box-left{
-    flex-direction: row;
     margin-right: 33px;
 }
-
-.ranking-box-right{
-    flex-direction: row;
-} 
 
 .ranking-box-unity ul{
     list-style: none;
@@ -201,12 +193,7 @@ body {
 }
 
 .coin-point-box-left{
-    flex-direction: row;
     margin-right: 30px;
-}
-
-.coin-point-box-right{
-    flex-direction: row;
 }
 
 .coin-point-box-unity ul{
@@ -282,12 +269,7 @@ body {
 }
 
 .blog-box-left{
-    flex-direction: row;
     margin-right: 30px;
-}
-
-.blog-box-right{
-    flex-direction: row;
 }
 
 .blog-box-unity ul{
@@ -328,7 +310,6 @@ body {
 }
 
 .qa-box{
-    flex-direction: row;
     width: 292px;
     height: 240px;
     margin-top: 12px;
@@ -392,7 +373,6 @@ body {
 
 /* ビューティ検索 */
 .search-box{
-    flex-direction: row;
     width: 290px;
     height: 240px;
     margin-top: 12px;
@@ -502,12 +482,7 @@ body {
 }
 
 .brand-box-left{
-    flex-direction: row;
     margin-right: 30px;
-}
-
-.brand-box-right{
-    flex-direction: row;
 }
 
 .brand-box-unity ul{
@@ -579,12 +554,7 @@ body {
 }
 
 .special-box-left{
-    flex-direction: row;
     margin-right: 30px;
-}
-
-.special-box-right{
-    flex-direction: row;
 }
 
 .special-box-unity ul{
@@ -656,14 +626,6 @@ body {
     margin-right: 20px;
 }
 
-.work-box-left{
-    flex-direction: row;
-}
-
-.work-box-right{
-    flex-direction: row;
-}
-
 .work-box ul{
     list-style: none;
 }
@@ -732,12 +694,7 @@ body {
 }
 
 .shopping-box-left{
-    flex-direction: row;
     margin-right: 30px;
-}
-
-.shopping-box-right{
-    flex-direction: row;
 }
 
 .shopping-box ul{
@@ -794,12 +751,10 @@ body {
 }
 
 .myatcosme-explanation{
-    flex-direction: row;
     margin-top: 16px;
 }
 
 .myatcosme-image{
-    flex-direction: row;
     margin-top: 16px;
     margin-left: 9px;
 }
@@ -829,10 +784,10 @@ body {
     line-height: 20px;
 }
 
-.myatcosme-explanation li::first-letter{
+.myatcosme-explanation li::before{
+    content: "\025cf";
     color: #4eb691;
 }
-
 
 .bottom-register{
     display: flex;
