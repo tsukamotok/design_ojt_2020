@@ -829,3 +829,360 @@ body {
     font-weight: bold;
     line-height: 20px;
 }
+
+.topics{
+    margin-top: 21.5px;
+    border-top: 1px solid #d9d2c3;
+}
+
+.topics-title{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 15px;
+    background: linear-gradient(#f4f2eC, #fdfdfc);
+}
+
+.topics-title h2{
+    margin-top: 4.5px;
+    padding-left: 18px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.topics-title h2::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 17px;
+    margin-right: 8px;
+    background-color: #d9d2c3;
+}
+
+.topics p{
+    margin-bottom: 10px;
+}
+
+.topics p:last-child{
+    margin-bottom: 16.5px;
+}
+
+.topics a{
+    display: inline-block;
+}
+
+.whats-new{
+    border-top: 1px solid #d9d2c3;
+}
+
+.whats-new-title{
+    width: 300px;
+    height: 25px;
+    margin-top: 2.5px;
+    margin-bottom: 5px;
+    background: linear-gradient(#f4f2eC, #fdfdfc);
+}
+.whats-new-title h2{
+    margin-top: 2px;
+    margin-left: 19px;
+    font-size: 13px;
+}
+
+.whats-new ul{
+    list-style: none;
+}
+
+.whats-new li{
+    font-size: 12px;
+    color: #068681;
+    padding-bottom: 6.5px;
+    border-bottom: 1px dotted #bfb7ac;
+}
+
+.whats-new li::before{
+    content: "";
+    display:  inline-block; 
+    width: 4px;
+    height: 4px;
+    margin-right: 4px;
+    border-radius: 100%;
+    background-color: #50b792;
+    box-sizing: border-box;
+    vertical-align: middle;
+    
+}
+
+.whats-new-list a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 4.5px;
+    color: #068681;
+}
+
+.whats-new-more{
+    font-size: 13px;
+    text-align: right;
+    margin-top: 6.5px;
+}
+
+.whats-new-more a{
+    display: inline-block;
+    color: #068681;
+}
+
+.whats-new-more::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 3px;
+    margin-left: 2px;
+    background-image: url(../img/icon_viewmore.png);
+}
+
+.brand-present{
+    margin-top: 20.5px;
+    border-top: 1px solid #d9d2c3;
+}
+
+.brand-present-title{
+    width: 300px;
+    height: 25px;
+    background: linear-gradient(#f4f2eC, #fdfdfc);
+}
+
+.brand-present-title h2{
+    margin-top: 4.5px;
+    padding-left: 18px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.present-day{
+    width: 280px;
+    height: 11px;
+    margin-top: 7px;
+    margin-left: 10px;
+    background-color: #f1eee8;
+}
+
+.present-day p{
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.present-period{
+    font-size: 11.5px;
+    text-align: right;
+    margin-top: 7px;
+}
+
+.present-link{
+    display: flex;
+    margin-top: 11.12px;
+    margin-left: 10px;
+    border-bottom: 1px dotted #bfb7ac;
+}
+.present-link img{
+    width: 85px;
+    height: 85px;
+    margin-right: 16px;
+}
+
+
+.present-information{
+    display: flex;
+    flex-direction: column;
+}
+
+.present-cosme-title{
+    font-size: 13px;
+    color: #068681;
+    line-height: 18px;
+}
+
+.present-cosme-title a{
+    font-size: 13px;
+    font-weight: bold;
+    color: #068681;
+}
+
+.present-supplement{
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 7.5px;
+}
+
+.present-more{
+    margin-top: 10.5px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.present-more a{
+    color: #068681;
+}
+
+.present-more::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 3px;
+    margin-left: 2px;
+    background-image: url(../img/icon_viewmore.png);
+}
+
+.concealer-ranking{
+    margin-top: 20.5px;
+    border-top: 1px solid #d9d2c3;
+}
+
+.concealer-ranking-title{
+    width: 300px;
+    height: 25px;
+    background: linear-gradient(#f4f2eC, #fdfdfc);
+}
+
+.concealer-ranking-title h2{
+    margin-top: 4.5px;
+    padding-left: 18px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.concealer-box{
+    width: 195px;
+    margin-left: 10px;
+}
+
+.concealer-element{
+    display: flex;
+    border-bottom: 1px dotted #bfb7ac;
+}
+
+.concealer-element img{
+    width: 34px;
+    height: 22px;
+    margin-top: 7px;
+    margin-right: 3px;
+}
+
+.concealer-box p{
+    font-size: 13px;
+    color: #333;
+    line-height: 18px;
+    margin-top: 5.62px;
+    margin-bottom: 5.38px;
+}
+
+.concealer-box a{
+    text-decoration: none;
+    color: #068681;
+}
+
+.concealer-more{
+    font-size: 13px;
+    text-align: right;
+    margin-top: 6.5px;
+}
+
+.concealer-more a{
+    display: inline-block;
+    color: #068681;
+}
+
+.concealer-more::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 3px;
+    margin-left: 2px;
+    background-image: url(../img/icon_viewmore.png);
+}
+
+.brand-new{
+    margin-top: 20.5px;
+    border-top: 1px solid #d9d2c3;
+}
+
+.brand-new-title{
+    width: 300px;
+    height: 25px;
+    background: linear-gradient(#f4f2eC, #fdfdfc);
+}
+
+.brand-new-title h2{
+    margin-top: 4.5px;
+    padding-left: 18px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.brand-new-list{
+    list-style: none;
+    margin-left: 10px;
+}
+.brand-new-list li{
+    font-size: 10px;
+    color: #aaa;
+    border-bottom: 1px dotted #bfb7ac;
+}
+
+.brand-new-list a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 8.5px;
+    font-size: 11px;
+    color: #333;
+}
+
+.brand-new-tag{
+    width: 278px;
+    height: 52px;
+    margin-top: 13px;
+    margin-left: 10px;
+    background-color: #f4f2ec;
+    border: 1px solid #e8e5e0;
+}
+
+.brand-new-tag ul{
+    width: 267px;
+    height: 41px;
+    list-style: none;
+    margin-top: 6px;
+    margin-left: 7px;
+}
+
+.brand-new-tag li{
+    display: inline;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.brand-new-tag a{
+    font-size: 13px;
+    color: #068681;
+}
+
+.brand-new-more{
+    font-size: 13px;
+    text-align: right;
+    margin-top: 6.5px;
+}
+
+.brand-new-more a{
+    display: inline-block;
+    color: #068681;
+}
+
+.brand-new-more::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 3px;
+    margin-left: 2px;
+    background-image: url(../img/icon_viewmore.png);
+}
