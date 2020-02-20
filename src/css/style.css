@@ -839,19 +839,21 @@ body {
     width: 300px;
     height: 25px;
     margin-bottom: 15px;
-    background: linear-gradient(#f4f2eC, #fdfdfc);
+    background: linear-gradient(#f4f2ec, #fdfdfc);
 }
 
 .topics-title h2{
     margin-top: 4.5px;
-    padding-left: 18px;
-    padding-top: 2px;
+    padding-left: 5px;
+    padding-top: 4px;
     font-size: 13px;
+    line-height: 17px;
 }
 
 .topics-title h2::before{
     content: "";
     display: inline-block;
+    vertical-align: middle;
     width: 5px;
     height: 17px;
     margin-right: 8px;
@@ -877,18 +879,31 @@ body {
 .whats-new-title{
     width: 300px;
     height: 25px;
-    margin-top: 2.5px;
     margin-bottom: 5px;
-    background: linear-gradient(#f4f2eC, #fdfdfc);
+    background: linear-gradient(#f4f2ec, #fdfdfc);
 }
+
 .whats-new-title h2{
-    margin-top: 2px;
-    margin-left: 19px;
+    margin-top: 4.5px;
+    padding-left: 5px;
+    padding-top: 4px;
     font-size: 13px;
+    line-height: 17px;
+}
+
+.whats-new-title h2::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 17px;
+    margin-right: 8px;
+    background-color: #d9d2c3;
 }
 
 .whats-new ul{
     list-style: none;
+    margin-left: 10px;
 }
 
 .whats-new li{
@@ -896,6 +911,7 @@ body {
     color: #068681;
     padding-bottom: 6.5px;
     border-bottom: 1px dotted #bfb7ac;
+    line-height: 20px;
 }
 
 .whats-new li::before{
@@ -903,7 +919,7 @@ body {
     display:  inline-block; 
     width: 4px;
     height: 4px;
-    margin-right: 4px;
+    margin-right: 10px;
     border-radius: 100%;
     background-color: #50b792;
     box-sizing: border-box;
@@ -916,6 +932,11 @@ body {
     text-decoration: none;
     margin-top: 4.5px;
     color: #068681;
+}
+
+.whats-new-list img{
+    vertical-align: middle;
+    margin-left: 3px;
 }
 
 .whats-new-more{
@@ -947,14 +968,16 @@ body {
 .brand-present-title{
     width: 300px;
     height: 25px;
-    background: linear-gradient(#f4f2eC, #fdfdfc);
+    margin-top: 2.5px;
+    margin-bottom: 10px;
+    background: linear-gradient(#f4f2ec, #fdfdfc);
 }
 
 .brand-present-title h2{
-    margin-top: 4.5px;
-    padding-left: 18px;
-    padding-top: 2px;
+    display: inline-block;
     font-size: 13px;
+    line-height: 17px;
+    vertical-align: middle;
 }
 
 .present-day{
@@ -983,6 +1006,7 @@ body {
     border-bottom: 1px dotted #bfb7ac;
 }
 .present-link img{
+    display: block;
     width: 85px;
     height: 85px;
     margin-right: 16px;
@@ -992,6 +1016,7 @@ body {
 .present-information{
     display: flex;
     flex-direction: column;
+    width: 182px;
 }
 
 .present-cosme-title{
@@ -1046,14 +1071,31 @@ body {
 
 .concealer-ranking-title h2{
     margin-top: 4.5px;
-    padding-left: 18px;
-    padding-top: 2px;
+    padding-left: 5px;
+    padding-top: 4px;
     font-size: 13px;
+    line-height: 17px;
+}
+
+.concealer-ranking-title h2::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 17px;
+    margin-right: 8px;
+    background-color: #d9d2c3;
 }
 
 .concealer-box{
-    width: 195px;
+    display: flex;
+    width: 300px;
     margin-left: 10px;
+}
+
+.concealer-right img{
+    margin-left: 16px;
+    border: 1px solid #ccc;
 }
 
 .concealer-element{
@@ -1061,14 +1103,15 @@ body {
     border-bottom: 1px dotted #bfb7ac;
 }
 
-.concealer-element img{
+.ranking-icon img{
     width: 34px;
     height: 22px;
     margin-top: 7px;
     margin-right: 3px;
 }
 
-.concealer-box p{
+.element-title{
+    width: 156px;
     font-size: 13px;
     color: #333;
     line-height: 18px;
@@ -1076,7 +1119,7 @@ body {
     margin-bottom: 5.38px;
 }
 
-.concealer-box a{
+.element-title a{
     text-decoration: none;
     color: #068681;
 }
@@ -1110,16 +1153,17 @@ body {
 .brand-new-title{
     width: 300px;
     height: 25px;
-    background: linear-gradient(#f4f2eC, #fdfdfc);
+    margin-top: 2.5px;
+    margin-bottom: 10px;
+    background: linear-gradient(#f4f2ec, #fdfdfc);
 }
 
 .brand-new-title h2{
-    margin-top: 4.5px;
-    padding-left: 18px;
-    padding-top: 2px;
+    display: inline-block;
     font-size: 13px;
+    line-height: 17px;
+    vertical-align: middle;
 }
-
 .brand-new-list{
     list-style: none;
     margin-left: 10px;
@@ -1128,6 +1172,18 @@ body {
     font-size: 10px;
     color: #aaa;
     border-bottom: 1px dotted #bfb7ac;
+}
+
+.brand-new-list li::before{
+    content: "";
+    display:  inline-block; 
+    width: 6px;
+    height: 6px;
+    margin-right: 7px;
+    border: 2px solid #cacaca;
+    border-radius: 100px;
+    box-sizing: border-box;
+    vertical-align: middle;
 }
 
 .brand-new-list a{
@@ -1157,7 +1213,7 @@ body {
 
 .brand-new-tag li{
     display: inline;
-    margin-right: 10px;
+    margin-right: 13px;
     line-height: 20px;
 }
 
